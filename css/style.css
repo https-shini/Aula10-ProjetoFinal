@@ -619,13 +619,9 @@ footer {
 
 @media (max-width:780px){
 
-  .right li{
-    width: 350px;
-    font-size: 10pt;
-    text-align: center;
-
-  }
-
+.top_nav{
+  display: inline;
+}
 
   .wrapper .top_nav .left .logo-img{
     width: 220px;
@@ -653,7 +649,7 @@ footer {
   height: 100vh;
   background: #DCDCDC;
   top: 80px;
-  left: -100%;
+  left: 0;
   text-align: center;
   transform: all .5s;
 }
@@ -663,7 +659,9 @@ footer {
 }
 
 #check:checked ~ .mobile{
-  left: 0;
+  right: 0;
 }
+
+
 
   }
