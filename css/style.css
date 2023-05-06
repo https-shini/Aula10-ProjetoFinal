@@ -624,15 +624,15 @@ footer {
 }
 
   .wrapper .top_nav .left .logo-img{
-    width: 220px;
+    width: 125px;
   }
     
 .bottom_nav{
-  visibility: hidden;
+  display: none;
 }
 
 .center, .right{
-  visibility: hidden;
+  display: none;
 }
 
 .left i{
@@ -645,21 +645,25 @@ footer {
 
 .mobile ,ul{
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: #DCDCDC;
   top: 80px;
-  left: 0;
-  text-align: center;
+  left:0;
+  text-align: bottom;
   transform: all .5s;
 }
 
-.mobile, .mobile ul li{
+.mobile{
+  display: block;
+}
+
+.mobile ul li{
   display: block;
 }
 
 #check:checked ~ .mobile{
-  right: 0;
+  left: 0;
 }
 
 
