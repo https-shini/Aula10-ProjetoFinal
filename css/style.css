@@ -136,6 +136,7 @@ body{
     text-decoration: underline;
 }
 
+
 /* ------- Pesquisa --------- */
 
 .center{
@@ -586,4 +587,13 @@ footer {
     padding: 1rem;
     font-weight: 100;
     font-size: 14pt;
+}
+
+@media (max-width:780px){
+
+  .right li{
+    width: 370px;
+  }
+
+
 }
