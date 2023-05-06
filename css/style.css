@@ -136,6 +136,34 @@ body{
     text-decoration: underline;
 }
 
+i{
+  width: 60px;
+}
+
+.mobile{
+  display: none;
+  background: #DCDCDC;
+  height: 80px;
+  width: 100%;
+}
+
+.mobile ul{
+  float: left;
+  margin-left: 20px;
+}
+
+.left i{
+  visibility: hidden;
+}
+
+#check{
+  display: none;
+}
+
+.checkbtn{
+  cursor: pointer;
+  display: none;
+}
 
 /* ------- Pesquisa --------- */
 
@@ -592,8 +620,50 @@ footer {
 @media (max-width:780px){
 
   .right li{
-    width: 370px;
+    width: 350px;
+    font-size: 10pt;
+    text-align: center;
+
   }
 
 
+  .wrapper .top_nav .left .logo-img{
+    width: 220px;
+  }
+    
+.bottom_nav{
+  visibility: hidden;
 }
+
+.center, .right{
+  visibility: hidden;
+}
+
+.left i{
+  visibility: visible;
+}
+
+.checkbtn{
+  display: block;
+}
+
+.mobile ,ul{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #DCDCDC;
+  top: 80px;
+  left: -100%;
+  text-align: center;
+  transform: all .5s;
+}
+
+.mobile, .mobile ul li{
+  display: block;
+}
+
+#check:checked ~ .mobile{
+  left: 0;
+}
+
+  }
