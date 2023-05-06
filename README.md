@@ -19,9 +19,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-## ☆ Projeto
-
-
 ## ☆ Licença
 
 Esse projeto está sob a licença MIT.
