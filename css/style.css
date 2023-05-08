@@ -136,39 +136,12 @@ body{
     text-decoration: underline;
 }
 
-i{
-  width: 60px;
-}
 
-.mobile{
-  display: none;
-  background: #DCDCDC;
-  height: 80px;
-  width: 100%;
-}
-
-.mobile ul{
-  float: left;
-  margin-left: 20px;
-}
-
-.left i{
-  visibility: hidden;
-}
-
-#check{
-  display: none;
-}
-
-.checkbtn{
-  cursor: pointer;
-  display: none;
-}
 
 /* ------- Pesquisa --------- */
 
 .center{
-	width: 800px;
+	width: 600px;
 	height: 50px;
 	background-color: #F0F1F8;
 	border-radius: 10px;
@@ -384,13 +357,12 @@ main .banner02 img{
 
 /* ------- Contato ------- */
 .container{
-  width: 95%;
+  width: 45%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   margin: auto;
   margin-bottom: 55px;
-  margin-left: 50px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.289);
 }
 .container .content{
@@ -399,36 +371,16 @@ main .banner02 img{
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.container .content .left-side{
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-  position: relative;
-}
 
-.content .left-side .details .text-one,
-.content .left-side .details .text-two{
-  font-size: 14px;
-  color: #afafb6;
-}
-
-.container .content .left-side{
-  width: 45%;
-  text-align: justify;
-}
-.content .left-side .topic-text{
+.content .contact{
   font-size: 30px;
   font-weight: 600;
   color: #1541E1;
 }
 
 .right-side{
-    width: 50%;
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .right-side .input-box{
@@ -496,20 +448,18 @@ footer {
 #footer_content {
     background-color: var(--color-neutral-10);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
 }
 
 #footer_contacts h1 {
     padding: 0.75rem;
     top: -35px;
-    position: relative;
 }
 
 #footer_contacts p {
     top: -63px;
     left: 35px;
-    position: relative;
 }
 
 #footer_social_media {
@@ -518,7 +468,6 @@ footer {
     margin-left: 2.5rem;
     top: -50px;
     left: 35px;
-    position: relative;
 } 
 
 #footer_social_media .footer-link {
@@ -619,53 +568,73 @@ footer {
 
 @media (max-width:780px){
 
-.top_nav{
-  display: inline;
+.wrapper .top_nav{
+  padding: 0;
 }
 
-  .wrapper .top_nav .left .logo-img{
-    width: 125px;
-  }
-    
-.bottom_nav{
+.right{
+  font-size: 8pt;
+}
+
+.center{display: none;}
+
+.wrapper .bottom_nav ul{
+  font-size: 1pt;
+  display: grid;
+  height: 500%;
+}
+
+.teste{
+  display: flex;
+}
+
+
+.wrapper .bottom_nav{
+  font-size: 2pt;
+  margin: 0;
+  padding: 0;
+  height: 50%;
+}
+
+
+
+
+figure{
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+#produtos{
+  display: block;
+  width: 60%;
+  margin-left: 70px;
+}
+
+.banners img{
+  width: 90%;
+  height: 80%;
+}
+
+.left-side{
   display: none;
 }
 
-.center, .right{
+.container{
+  width: 95%;
+}
+
+#footer_content{
+  display: block;
+}
+
+
+#footer_social_media {
+  left: 15px;
+} 
+
+.banner02{
   display: none;
 }
-
-.left i{
-  visibility: visible;
-}
-
-.checkbtn{
-  display: block;
-}
-
-.mobile ,ul{
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: #DCDCDC;
-  top: 80px;
-  left:0;
-  text-align: bottom;
-  transform: all .5s;
-}
-
-.mobile{
-  display: block;
-}
-
-.mobile ul li{
-  display: block;
-}
-
-#check:checked ~ .mobile{
-  left: 0;
-}
-
-
 
   }
