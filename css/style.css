@@ -204,7 +204,7 @@ body{
 
 .manual-navigation{
     position: absolute;
-    width: 1800px;
+    width: 1400px;
     margin-top: -25px;
     display: flex;
     justify-content: center;
@@ -252,7 +252,7 @@ body{
 
 .navigation-auto{
     position: absolute;
-    width: 1800px;
+    width: 1400px;
     margin-top: 590px;
     display: flex;
     justify-content: center;
@@ -453,32 +453,32 @@ footer {
 }
 
 #footer_contacts h1 {
-    padding: 0.75rem;
-    top: -35px;
+  margin-top: -1px;
+  top: -35px;
 }
 
 #footer_contacts p {
-    top: -63px;
+    margin-top: -15px;
     left: 35px;
 }
 
 #footer_social_media {
-    display: flex;
-    gap: 2rem;
-    margin-left: 2.5rem;
-    top: -50px;
-    left: 35px;
+  display: flex;
+  gap: 2rem;
+  margin-left: 2.5rem;
+  top: -50px;
+  left: 35px;
 } 
 
 #footer_social_media .footer-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    color: var(--color-neutral-40);
-    border-radius: 50%;
-    transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
 }
 
 #footer_social_media .footer-link i {
