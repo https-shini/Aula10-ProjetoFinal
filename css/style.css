@@ -56,10 +56,14 @@ body{
 }
 
 .wrapper .top_nav .left .logo-img{
-    width: 125px;
+    width: 70px;
     cursor: auto;
 }
 
+.wrapper .top_nav .left .logo-title{
+  width: 300px;
+  cursor: auto;
+}
 
 .wrapper .top_nav .left .search_bar input[type="text"]{
   border: 1px solid #666666;
@@ -589,16 +593,22 @@ footer {
   display: flex;
 }
 
-
 .wrapper .bottom_nav{
-  font-size: 2pt;
+  font-size: 12pt;
   margin: 0;
   padding: 0;
   height: 50%;
 }
 
+.wrapper .top_nav .left .logo-img{
+  width: 40px;
+  cursor: auto;
+}
 
-
+.wrapper .top_nav .left .logo-title{
+width: 110px;
+cursor: auto;
+}
 
 figure{
   width: 100%;
